@@ -14,7 +14,12 @@ public class ShoppingListRemoveElementController
     @FXML
     public void onDeleteElementButtonClick(ActionEvent actionEvent)
     {
-
+        String inputElement = ElementToDeleteTextField.getText();
+        if(inputElement != null & inputElement.length()>0)
+        {
+            App.ShoppingList.remove(inputElement);
+        }
+        ElementToDeleteTextField.setText("");
         System.out.println("Elem eltávolítása.");
     }
     @FXML

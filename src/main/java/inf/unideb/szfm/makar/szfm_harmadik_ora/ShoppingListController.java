@@ -24,6 +24,7 @@ public class ShoppingListController
     {
         System.out.println("Elem törlése.");
         App.setRoot("ShoppingListRemoveElementView");
+
     }
 
     @FXML
