@@ -6,7 +6,8 @@ import javafx.scene.control.ListView;
 
 import java.io.IOException;
 
-public class ShoppingListController {
+public class ShoppingListController 
+{
 
     @FXML
     ListView ShoppingListView;

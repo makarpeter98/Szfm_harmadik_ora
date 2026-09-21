@@ -6,7 +6,8 @@ import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
-public class ShoppingListRemoveElementController {
+public class ShoppingListRemoveElementController 
+{
     @FXML
     public TextField ElementToDeleteTextField;
 
@@ -16,7 +17,8 @@ public class ShoppingListRemoveElementController {
         System.out.println("Elem eltávolítása.");
     }
     @FXML
-    public void onShowListViewButtonClick(ActionEvent actionEvent) throws IOException {
-        App.setRoot("ShoppingListView");
+    public void onShowListViewButtonClick(ActionEvent actionEvent) throws IOException 
+	{
+		
     }
 }

@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 import java.io.IOException;
 
 public class ShoppingListAddElementController
-    {
+{
     @FXML
     public TextField AddElementTextField;
 
@@ -22,6 +22,6 @@ public class ShoppingListAddElementController
     @FXML
     public void onShowListButtonClick(ActionEvent actionEvent) throws IOException
     {
-        App.setRoot("ShoppingListView");
+		
     }
 }

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  * 2026-09-21
- * teszt
+ * teszt commit
  */
 public class App extends Application {
 
