@@ -20,6 +20,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+        ShoppingList = new ArrayList<String>();
+        ShoppingList.add("Sajttorta");
+        ShoppingList.add("Kelkáposzta főzelék");
+        ShoppingList.add("MTZ");
+        ShoppingList.add("ALMA");
         scene = new Scene(loadFXML("ShoppingListView"), 640, 480);
         stage.setScene(scene);
         stage.show();

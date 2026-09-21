@@ -34,6 +34,14 @@ public class ShoppingListController
 
     public void initialize()
     {
+
+        for(String element : App.ShoppingList)
+        {
+            if(element != null & element.length() > 0)
+            {
+                ShoppingListView.getItems().add(element);
+            }
+        }
         System.out.println("Inicializálás.");
     }
 }
