@@ -31,6 +31,22 @@ public class ShoppingListController
     public void onOrderButtonClick(ActionEvent actionEvent)
     {
         System.out.println("Elemek rendezése.");
+
+        ShoppingListView.getItems().clear();
+
+        // sorbarendezés
+
+        App.ShoppingList satöbbi
+
+        for(String element : App.ShoppingList)
+        {
+            if(element != null & element.length() > 0)
+            {
+                ShoppingListView.getItems().add(element);
+            }
+        }
+
+        ShoppingListView.refresh();
     }
 
     public void initialize()
