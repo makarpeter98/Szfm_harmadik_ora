@@ -36,7 +36,7 @@ public class ShoppingListController
 
         // sorbarendezés
 
-        App.ShoppingList satöbbi
+        App.ShoppingList.sort(String::compareToIgnoreCase);
 
         for(String element : App.ShoppingList)
         {
